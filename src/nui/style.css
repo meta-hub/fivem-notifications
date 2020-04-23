@@ -1,0 +1,29 @@
+#container {
+  position: absolute;
+  left: 21px;
+  bottom: 120px;
+
+  width: 260px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.notification {  
+  display: none;
+  position: relative;
+  flex: 1;
+  
+  width: 100%;
+  height: auto;
+
+  margin-bottom: 5px;
+  padding: 6px 0 8px 10px;
+
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+  color: rgba(255,255,255,0.8);
+
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
+}
